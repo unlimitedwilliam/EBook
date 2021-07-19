@@ -9,11 +9,6 @@ const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
   },
-  paper: {
-    padding: theme.spacing(2),
-    margin: 'auto',
-    maxWidth: 500,
-  },
   image: {
     width: 128,
     height: 128,
@@ -31,7 +26,7 @@ export default function MySite() {
 
   return (
     <div className={classes.root}>
-      <Paper className={classes.paper}>
+      <Paper>
         <Grid container spacing={2}>
           <Grid item>
             <ButtonBase className={classes.image}>
